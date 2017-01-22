@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_wishes">20dp</dimen>
+    <dimen name="marginLeft_wishes">40dp</dimen>
+    <dimen name="marginRight_wishes">40dp</dimen>
+    <dimen name="padding_top_wl">2dp</dimen>
+    <dimen name="padding_bottom_wl">2dp</dimen>
+    <dimen name="padding_end_wl">10dp</dimen>
+    <dimen name="padding_start_wl">50dp</dimen>
+</resources>

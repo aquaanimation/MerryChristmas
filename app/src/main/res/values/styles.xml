@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BackgroundDefault">
+        <item name="android:src">@drawable/bg1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="Snow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MerryXmasHeader">
+         <item name="android:src">@drawable/merry_xmas</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="ContentWrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="Wish_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_wishes</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft_wishes</item>
+        <item name="android:layout_marginRight">@dimen/marginRight_wishes</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:background">#E6ffffff</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Signature">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#B71C1C</item>
+        <item name="android:layout_alignRight">@id/wishes</item>
+        <item name="android:layout_below">@id/wishes</item>
+        <item name="android:layout_alignEnd">@id/wishes</item>
+        <item name="android:paddingLeft">@dimen/padding_start_wl</item>
+        <item name="android:paddingStart">@dimen/padding_start_wl</item>
+        <item name="android:paddingRight">@dimen/padding_end_wl</item>
+        <item name="android:paddingEnd">@dimen/padding_end_wl</item>
+        <item name="android:paddingTop">@dimen/padding_top_wl</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom_wl</item>
+    </style>
+
+    <style name="LittleSanta">
+        <item name="android:src">@drawable/santa</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+</resources>

@@ -9,4 +9,7 @@
     <dimen name="padding_bottom_wl">2dp</dimen>
     <dimen name="padding_end_wl">10dp</dimen>
     <dimen name="padding_start_wl">50dp</dimen>
+    <dimen name="marginBottom_santa">-10dp</dimen>
+    <dimen name="marginRight_soundConf">10dp</dimen>
+    <dimen name="marginBottom_soundConf">10dp</dimen>
 </resources>

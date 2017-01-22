@@ -67,6 +67,23 @@
         <item name="android:layout_width">150dp</item>
         <item name="android:layout_height">150dp</item>
         <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom_santa</item>
+    </style>
+
+    <style name="SoundConfig">
+        <item name="android:src">@drawable/santa</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/marginRight_soundConf</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom_soundConf</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/sound_conf</item>
     </style>
 
 </resources>

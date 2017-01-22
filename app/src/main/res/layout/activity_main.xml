@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    >
+    tools:ignore="ExtraText">
     <ImageView
         style="@style/BackgroundDefault"
         tools:ignore="ContentDescription"/>
@@ -34,4 +34,9 @@
     <ImageView
         style="@style/LittleSanta"
         tools:ignore="ContentDescription"  />
+    <ToggleButton
+        style="@style/SoundConfig"
+        android:id="@+id/toggleSound"
+
+        />
 </RelativeLayout>

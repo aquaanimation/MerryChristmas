@@ -28,7 +28,10 @@
         <TextView
             style="@style/Signature"
             android:text="@string/with_love" />
-
+        <Button
+            style="@style/EditTextIcon"
+            android:onClick="editTextClick"
+            />
     </RelativeLayout>
 
     <ImageView
@@ -36,7 +39,8 @@
         tools:ignore="ContentDescription"  />
     <ToggleButton
         style="@style/SoundConfig"
-        android:id="@+id/toggleSound"
-
-        />
+        android:id="@+id/toggleSound" />
+    <TextView
+        style="@style/CopyrightText"
+        android:text="@string/copyrights"/>
 </RelativeLayout>

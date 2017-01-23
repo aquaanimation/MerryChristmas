@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_data_entry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#446CB3"
+    android:orientation="vertical"
+    tools:context="com.example.android.happybirthday.DataEntry">
+    <com.jetradarmobile.snowfall.SnowfallView
+        style="@style/Snow" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <ImageView
+            style="@style/MerryXmasHeader"
+            android:layout_weight="0"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            style="@style/EditWishHeader"
+            android:text="@string/wish_edit_header"
+        />
+        <EditText
+            style="@style/EditTextParagraph"
+            android:id="@+id/paragraphText"
+            android:text="@string/p_text" >
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            style="@style/EditTextSignature"
+            android:id="@+id/mTextView"
+            android:text="@string/with_love"
+ />
+        <Button
+            style="@style/ButtonEditShare"
+            android:text="@string/share_wish_btn"
+            android:onClick="saveTextClick"/>
+        <TextView
+            style="@style/CopyrightText"
+            android:text="@string/copyrights"/>
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

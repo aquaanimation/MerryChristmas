@@ -40,7 +40,7 @@
         <item name="android:layout_marginLeft">@dimen/marginLeft_wishes</item>
         <item name="android:layout_marginRight">@dimen/marginRight_wishes</item>
         <item name="android:layout_marginTop">0dp</item>
-        <item name="android:background">#E6ffffff</item>
+        <item name="android:background">@color/whiteTransparent</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
 
@@ -50,7 +50,7 @@
         <item name="android:fontFamily">cursive</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:background">#B71C1C</item>
+        <item name="android:background">@color/christmasRed</item>
         <item name="android:layout_alignRight">@id/wishes</item>
         <item name="android:layout_below">@id/wishes</item>
         <item name="android:layout_alignEnd">@id/wishes</item>
@@ -71,7 +71,6 @@
     </style>
 
     <style name="SoundConfig">
-        <item name="android:src">@drawable/santa</item>
         <item name="android:layout_width">50dp</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:layout_alignParentBottom">true</item>
@@ -85,5 +84,68 @@
         <item name="android:layout_centerVertical">true</item>
         <item name="android:background">@drawable/sound_conf</item>
     </style>
+
+    <style name="EditTextIcon">
+        <item name="android:background">@drawable/edit</item>
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_alignEnd">@id/wishes</item>
+    </style>
+
+    <style name="EditWishHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="EditTextParagraph">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:maxLength">260</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:hint">Here you may write your wish</item>
+    </style>
+
+    <style name="EditTextSignature">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:hint">Add your Signature</item>
+    </style>
+
+    <style name="ButtonEditShare">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:background">@color/christmasRed</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="CopyrightText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+
 
 </resources>

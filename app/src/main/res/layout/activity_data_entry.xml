@@ -25,6 +25,7 @@
 
         <TextView
             style="@style/EditWishHeader"
+            android:id="@+id/headerTextMe"
             android:text="@string/wish_edit_header"
         />
         <EditText
@@ -36,7 +37,7 @@
 
         <EditText
             style="@style/EditTextSignature"
-            android:id="@+id/mTextView"
+            android:id="@+id/signatureText"
             android:text="@string/with_love"
  />
         <Button

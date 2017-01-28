@@ -27,6 +27,7 @@
             />
         <TextView
             style="@style/Signature"
+            android:id="@+id/signature"
             android:text="@string/with_love" />
         <Button
             style="@style/EditTextIcon"

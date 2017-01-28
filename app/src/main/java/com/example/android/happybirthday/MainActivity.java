@@ -52,14 +52,8 @@ public class MainActivity extends AppCompatActivity {
     public void editTextClick(View v) {
 
         Button button = (Button) v;
+        startActivity(new Intent(getApplicationContext(), DataEntry.class));
+    }
 
-        /**
-         * display("dhsjfkajsdfhsadfj");**/
-          startActivity(new Intent(getApplicationContext(), DataEntry.class));
-    }
-    private void display(String text) {
-        TextView paragraphText = (TextView) findViewById(R.id.wishes);
-        paragraphText.setText("" + text);
-    }
 
 }

@@ -31,14 +31,15 @@
         <EditText
             style="@style/EditTextParagraph"
             android:id="@+id/paragraphText"
-            android:text="@string/p_text" >
+
+             >
             <requestFocus />
         </EditText>
 
         <EditText
             style="@style/EditTextSignature"
             android:id="@+id/signatureText"
-            android:text="@string/with_love"
+
  />
         <Button
             style="@style/ButtonEditShare"
